@@ -1,0 +1,112 @@
+[
+  {
+    "address": "Rua Central, 35, Rio de Janeiro, Brasil",
+    "facebook": "malice",
+    "group": "classmates",
+    "mail": "maria@alice.com.br",
+    "name": "Maria Alice",
+    "phone": "555 111 222",
+    "skype": "maria.alice",
+    "tags": "my wife",
+    "twitter": "malice"
+  },
+  {
+    "address": "7 North Avenue, New York, USA",
+    "facebook": "jsanders",
+    "group": null,
+    "mail": "john@fam.com",
+    "name": "John Sanders",
+    "phone": "111 555 777",
+    "skype": "johnjohn",
+    "tags": null,
+    "twitter": "jsanders"
+  },
+  {
+    "address": "Rua das Rosas, 10, Rio de Janeiro, Brasil",
+    "facebook": "sandrade",
+    "group": "classmates",
+    "mail": "sandra@andrade.com.br",
+    "name": "Sandra Andrade",
+    "phone": "555 222 999",
+    "skype": "sandrinha",
+    "tags": "Tech Manager",
+    "twitter": "sa"
+  },
+  {
+    "address": "Calle Catedral 39, Santiago, Chile",
+    "facebook": "enricoh",
+    "group": "classmates",
+    "mail": "enrico@hernandez.cl",
+    "name": "Enrico Hernandez",
+    "phone": "444 666 333",
+    "skype": "enrico",
+    "tags": null,
+    "twitter": "enricohcl"
+  },
+  {
+    "address": "Calle San Pablo 22, Santiago, Chile",
+    "facebook": "carmensouza",
+    "group": "family",
+    "mail": "carmen@souza.cl",
+    "name": "Carmen Souza",
+    "phone": "777 888 999",
+    "skype": "carmensouza",
+    "tags": null,
+    "twitter": "carmensouza"
+  },
+  {
+    "address": "60 South Avenue, California, USA",
+    "facebook": "sebastianx",
+    "group": null,
+    "mail": "newton@sebastian.com",
+    "name": "Newton Sebastian",
+    "phone": "999 888 555",
+    "skype": "sebastianx",
+    "tags": "myself, personal information",
+    "twitter": "sebastianx"
+  },
+  {
+    "address": "78 Goldsmith Street Albuquerque, New Mexico, USA",
+    "facebook": "cavilla",
+    "group": "family",
+    "mail": "cristina@avilla.com",
+    "name": "Cristina Avilla",
+    "phone": "458 451 111",
+    "skype": "crisavilla",
+    "tags": "my mother",
+    "twitter": "c.avilla"
+  },
+  {
+    "address": "88 Germany Avenue, Atlanta, Georgia, USA",
+    "facebook": "facgeorge",
+    "group": "family",
+    "mail": "george@semanticmail.com",
+    "name": "George Brown",
+    "phone": "452 174 555",
+    "skype": "skypebrown",
+    "tags": "my son",
+    "twitter": "twgeorge"
+  },
+  {
+    "address": "euh87",
+    "facebook": "h1987",
+    "group": "classmates",
+    "mail": "helena@university.com",
+    "name": "Maria Helena",
+    "phone": "475 84541",
+    "skype": "h1987",
+    "tags": "my daughter",
+    "twitter": "hele87"
+  },
+  {
+    "address": null,
+    "facebook": null,
+    "group": null,
+    "mail": "mark@gmail.com",
+    "name": "Mark",
+    "phone": null,
+    "skype": null,
+    "tags": null,
+    "twitter": null
+  }
+]

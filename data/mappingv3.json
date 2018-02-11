@@ -1,0 +1,6492 @@
+[
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "contact@gs-store.de"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "contact@gs-store.de"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700000,
+        "name": "make a payment",
+        "params": {
+          "invoice": "<return1>.attachment",
+          "method": "credit card"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>",
+          "to address": "contact@gs-store.de"
+        }
+      }
+    ],
+    "id": 101,
+    "nl_command_statment": "Pay the invoice that I will receive from contact@gs-store.de with my cred card, then send the payment receipt to them using the same address."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "contact@gs-store.de"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "contact@gs-store.de"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700000,
+        "name": "make a payment",
+        "params": {
+          "invoice": "<return1>.attachment",
+          "method": "bank"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>",
+          "to address": "contact@gs-store.de"
+        }
+      }
+    ],
+    "id": 102,
+    "nl_command_statment": "Pay in the bank my purchases that I will soon receive from contact@gs-store.de. Send the proof of payment back to the store."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "contact@gs-store.de"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "contact@gs-store.de"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700000,
+        "name": "make a payment",
+        "params": {
+          "invoice": "<return1>.attachment",
+          "method": "bank"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>",
+          "to address": "contact@gs-store.de"
+        }
+      }
+    ],
+    "id": 105,
+    "nl_command_statment": "Make a payment using my bank account when I receive a message from Good Sports Store. Send the receipt back to the store."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "contact@gs-store.de"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "contact@gs-store.de"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700000,
+        "name": "make a payment",
+        "params": {
+          "invoice": "<return1>.attachment",
+          "method": "bank"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>",
+          "to address": "contact@gs-store.de"
+        }
+      }
+    ],
+    "id": 106,
+    "nl_command_statment": "Pay my Good Sports Store account balance using my bank account on the day I receive an email with a payment invoice from contact@gs-store.de, and send the payment receipt back to the store."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "contact@gs-store.de"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "contact@gs-store.de"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700000,
+        "name": "make a payment",
+        "params": {
+          "invoice": "<return1>.attachment",
+          "method": "credit card"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>.receipt",
+          "to address": "contact@gs-store.de"
+        }
+      }
+    ],
+    "id": 107,
+    "nl_command_statment": "Wait for a new email from the sender contact@gs-store.de. Pay it using my credit card. Once paid, create a response, upload the payment receipt to the email to send. Send it."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700001,
+        "name": "new deposit in your account from sender",
+        "params": {
+          "sender name": "John Sanders"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "thank you",
+              "to address": "john@fam.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "thank you",
+              "recipients": "john@fam.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 401,
+    "nl_command_statment": "\tCheck for a new deposit by John Sanders. After receiving it, message him with \"thank you\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700001,
+        "name": "new deposit in your account from sender",
+        "params": {
+          "sender name": "John Sanders"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "thank you",
+              "to address": "john@fam.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "thank you",
+              "recipients": "john@fam.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 402,
+    "nl_command_statment": "When a new deposit from John Sanders occurs in my bank accoung, seek the contact John on the agenda. Send \"thank you\" to John when this happens."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700001,
+        "name": "new deposit in your account from sender",
+        "params": {
+          "sender name": "John Sanders"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "thank you",
+              "to address": "john@fam.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "thank you",
+              "recipients": "john@fam.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 403,
+    "nl_command_statment": "If any income from John Sanders arrives in my bank account, send this message to him: Thank you."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700001,
+        "name": "new deposit in your account from sender",
+        "params": {
+          "sender name": "John Sanders"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Hello John, thanks for your gift to me, I receive your deposit of some money to me, thanks a lot, buddy.",
+              "to address": "john@fam.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Hello John, thanks for your gift to me, I receive your deposit of some money to me, thanks a lot, buddy.",
+              "recipients": "john@fam.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 404,
+    "nl_command_statment": "If a receive a deposit from John Sanders in my bank account, send this message to him: \"Hello John, thanks for your gift to me, I receive your deposit of some money to me, thanks a lot, buddy.\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "question.doc"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "en",
+              "text": "<return1>",
+              "to": "pt"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "en",
+              "languageToConvert": "pt",
+              "text": "<return1>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return1>",
+              "source": "en",
+              "target": "pt"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600209,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "question-pt.doc"
+            }
+          },
+          {
+            "id": 600350,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "question-pt.doc"
+            }
+          },
+          {
+            "id": 600614,
+            "name": "create a document",
+            "params": {
+              "content": "<return2>",
+              "document name": "question-pt.doc"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "question-pt.doc",
+          "body": "Hi Sandra, could you review this document for me, please?",
+          "to address": "sandra@andrade.com.br"
+        }
+      }
+    ],
+    "id": 501,
+    "nl_command_statment": "Translate \"question.doc\" from EN to PT. Save the content in the file \"question-pt.doc\" and send to Sandra with this message: Hi Sandra, could you review this document for me, please?"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "question.doc"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "en",
+              "text": "<return1>",
+              "to": "pt"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "en",
+              "languageToConvert": "pt",
+              "text": "<return1>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return1>",
+              "source": "en",
+              "target": "pt"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "sandra@andrade.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "sandra@andrade.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 502,
+    "nl_command_statment": "Find \"question.doc\" and translate the content of the file from English into Portuguese. Send this new text to Sandra. Once she sends back the reviewed message, send it to Brazilian embassy."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "question.doc"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "en",
+              "text": "<return1>",
+              "to": "pt"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "en",
+              "languageToConvert": "pt",
+              "text": "<return1>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return1>",
+              "source": "en",
+              "target": "pt"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "sandra@andrade.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "sandra@andrade.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 503,
+    "nl_command_statment": "Use a machine translation service to translate the file \"questions.doc\" to Portuguese. Send the translated version to Sandra asking her to check whether the text is written correctly."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "enrico@hernandez.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "enrico@hernandez.cl"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700003,
+        "name": "extract content",
+        "params": {
+          "info": "the necklace price",
+          "text": "<return1>.body"
+        }
+      },
+      {
+        "id": 503679,
+        "name": "convert",
+        "params": {
+          "from": "Chilean Pesos",
+          "from_amount": "<return2>",
+          "to": "Euro"
+        }
+      },
+      {
+        "alternative": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "Hi my friend, unfortunately, it is more expensive than expected. I'm not interested. Anyways, thanks.",
+                "to address": "enrico@hernandez.cl"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "Hi my friend, unfortunately, it is more expensive than expected. I'm not interested. Anyways, thanks.",
+                "recipients": "enrico@hernandez.cl"
+              }
+            }
+          ]
+        },
+        "condition": "<return3>< 100",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "Hi my friend, please buy it",
+                "to address": "enrico@hernandez.cl"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "Hi my friend, please buy it",
+                "recipients": "enrico@hernandez.cl"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 601,
+    "nl_command_statment": "Get the email from Enrico Hernandez. Extract the necklace price. Exchange this value from Chilean Pesos to Euro. If the price < 100 EUR, send this message to him: \"Hi my friend, please buy it\". Otherwise, send this: \"Hi my friend, unfortunately, it is more expensive than expected. I'm not interested. Anyways, thanks.\""
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "enrico@hernandez.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "enrico@hernandez.cl"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700003,
+        "name": "extract content",
+        "params": {
+          "info": "the necklace price",
+          "text": "<return1>.body"
+        }
+      },
+      {
+        "id": 503679,
+        "name": "convert",
+        "params": {
+          "from": "Chilean Pesos",
+          "from_amount": "<return2>",
+          "to": "Euro"
+        }
+      }
+    ],
+    "id": 602,
+    "nl_command_statment": "When a message from Enrico Hernandez arrives, get the necklace price; Convert it from Chilean Pesos to Euro; If it costs less than 100 EUR, send to him a message asking him to buy it; If not, write saying I am not interested."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 501143,
+            "name": "weather",
+            "params": {
+              "location": "Dublin"
+            }
+          },
+          {
+            "id": 500684,
+            "name": "daily-forecast-weather-data",
+            "params": {
+              "q": "Dublin"
+            }
+          },
+          {
+            "id": 502375,
+            "name": "weather-forecast",
+            "params": {
+              "location": "Dublin"
+            }
+          },
+          {
+            "id": 500686,
+            "name": "search-weather-data",
+            "params": {
+              "q": "Dublin"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "let's go to the mountains",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "let's go to the mountains",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        },
+        "condition": "<return1>> 18",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "let's go to the beac",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "let's go to the beac",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 701,
+    "nl_command_statment": "Check the weather in Dublin. If it is higher than 18\u00b0C send an email to John saying \"let's go to the beac\". Otherwise write: \"let's go to the mountains\"."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 501143,
+            "name": "weather",
+            "params": {
+              "location": "Lisbon"
+            }
+          },
+          {
+            "id": 500684,
+            "name": "daily-forecast-weather-data",
+            "params": {
+              "q": "Lisbon"
+            }
+          },
+          {
+            "id": 502375,
+            "name": "weather-forecast",
+            "params": {
+              "location": "Lisbon"
+            }
+          },
+          {
+            "id": 500686,
+            "name": "search-weather-data",
+            "params": {
+              "q": "Lisbon"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>> 20",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "our destination is the beach",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "our destination is the beach",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>< 20",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "we are going to the mountains",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "we are going to the mountains",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 702,
+    "nl_command_statment": "Check weather conditions in Lisbon for the trip with my friend John in the weekend. If it is 20\u00b0C or above, write him by email that our destination is the beach. If the weather is cold (lower than 20\u00b0C), say we are going to the mountains."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 501143,
+            "name": "weather",
+            "params": {
+              "location": "Porto"
+            }
+          },
+          {
+            "id": 500684,
+            "name": "daily-forecast-weather-data",
+            "params": {
+              "q": "Porto"
+            }
+          },
+          {
+            "id": 502375,
+            "name": "weather-forecast",
+            "params": {
+              "location": "Porto"
+            }
+          },
+          {
+            "id": 500686,
+            "name": "search-weather-data",
+            "params": {
+              "q": "Porto"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "the plan is to go the mountains",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "the plan is to go the mountains",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        },
+        "condition": "<return1>> 20",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "the plan is to go to the beach",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "the plan is to go to the beach",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 703,
+    "nl_command_statment": "Check the weather in Porto right now. If it is hot (from 20\u00b0C) then write an email to John saying that \"the plan is to go to the beach\". Else, write that \"the plan is to go the mountains\"."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 501143,
+            "name": "weather",
+            "params": {
+              "location": "Nantes"
+            }
+          },
+          {
+            "id": 500684,
+            "name": "daily-forecast-weather-data",
+            "params": {
+              "q": "Nantes"
+            }
+          },
+          {
+            "id": 502375,
+            "name": "weather-forecast",
+            "params": {
+              "location": "Nantes"
+            }
+          },
+          {
+            "id": 500686,
+            "name": "search-weather-data",
+            "params": {
+              "q": "Nantes"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>> 20",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "our destination is the beach",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "our destination is the beach",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>> 20",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "our destination is the beach",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "our destination is the beach",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 704,
+    "nl_command_statment": "Check the weather for this weekend in Nantes. 20\u00b0C or bellow send an email to John that our destination is the mountains, 20\u00b0C and up say that our destination is the beach"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 501143,
+            "name": "weather",
+            "params": {
+              "location": "Barcelona"
+            }
+          },
+          {
+            "id": 500684,
+            "name": "daily-forecast-weather-data",
+            "params": {
+              "q": "Barcelona"
+            }
+          },
+          {
+            "id": 502375,
+            "name": "weather-forecast",
+            "params": {
+              "location": "Barcelona"
+            }
+          },
+          {
+            "id": 500686,
+            "name": "search-weather-data",
+            "params": {
+              "q": "Barcelona"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "we are going to the mountains",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "we are going to the mountains",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        },
+        "condition": "<return1>> 22",
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "we are going to the beach",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "we are going to the beach",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 705,
+    "nl_command_statment": "Check the weather forecast in Barcelona for the weekend. If the weather is hot, send to John an email with this message: we are going to the beach. If the weather is cold, send this: we are going to the mountains. For me, hot is when the is 22\u00b0C or more."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 801,
+    "nl_command_statment": "Please check the price of the book Entrepreneurial State and if it is less than 10 Euros, purchase."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 802,
+    "nl_command_statment": "Find the book \"Entrepreneurial State\". If it costs less than 10, buy it."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 803,
+    "nl_command_statment": "Search for the price of the book Entrepreneurial State. In case it is cheaper than 10 Euro, then buy."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 804,
+    "nl_command_statment": "Check the price of \"Entrepreneurial State\" and in the case of it be less than 10 Euro, buy it."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 805,
+    "nl_command_statment": "Find the book \"Entrepreneurial State\". If the price is less than 10 euro, buy."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 506,
+    "nl_command_statment": "Check the price for \"Entrepreneurial State\" and buy it if it is under 10 euros."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 807,
+    "nl_command_statment": "Check the price of the book \"Entrepreneurial State\". If the price is less than 10 euros, then buy it."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "10 Euros",
+            "search terms": "the book Entrepreneurial State"
+          }
+        },
+        "consequent": {
+          "id": 700004,
+          "name": "buy a product by id",
+          "params": {
+            "id": "<return1>.id"
+          }
+        }
+      }
+    ],
+    "id": 808,
+    "nl_command_statment": "Find the price of the book Entrepreneurial State; if it costs less than 10 Euro, buy it."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700005,
+        "name": "get contacts",
+        "params": {
+          "group": "classmates"
+        }
+      },
+      {
+        "block": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "Hi, I'd like to invite you and your family to my child's birthday party. Please, answer this message saying whether you are coming. Thanks.",
+                "to address": "<item>.email_address"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "Hi, I'd like to invite you and your family to my child's birthday party. Please, answer this message saying whether you are coming. Thanks.",
+                "recipients": "<item>.email_address"
+              }
+            }
+          ]
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 901,
+    "nl_command_statment": "For each contact in the group classmates, send the following message by email: \"Hi, I'd like to invite you and your family to my child's birthday party. Please, answer this message saying whether you are coming. Thanks.\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700005,
+        "name": "get contacts",
+        "params": {
+          "group": "classmates"
+        }
+      },
+      {
+        "block": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "Hi, we'd like to invite you to our child's birthday party.",
+                "to address": "<item>.email_address"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "Hi, we'd like to invite you to our child's birthday party.",
+                "recipients": "<item>.email_address"
+              }
+            }
+          ]
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 902,
+    "nl_command_statment": "Send an email to all of my contacts in the list 'classmates' writing them this message: Hi, we'd like to invite you to our child's birthday party."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "the pictures we took in Munich",
+              "to address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "the pictures we took in Munich",
+              "recipients": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600490,
+        "name": "upload public photo from url",
+        "params": {
+          "photo url": "<return1>.attachment",
+          "tags": "#munich, #germany, #my-love"
+        }
+      }
+    ],
+    "id": 1001,
+    "nl_command_statment": "Send an email to Mark asking him for the picture we took in Munich. When I receive the answer, get the attached image and publish it on my Flickr account with the tags #munich, #germany, #my-love"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Hi Mark, please send me the photo we took in Munich",
+              "to address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Hi Mark, please send me the photo we took in Munich",
+              "recipients": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600490,
+        "name": "upload public photo from url",
+        "params": {
+          "photo url": "<return1>.attachment",
+          "tags": "#munich, #germany, #my-love"
+        }
+      }
+    ],
+    "id": 1002,
+    "nl_command_statment": "Send this message to Mark by email: Hi Mark, please send me the photo we took in Munich. When I receive it back, publish it in my Flickr account using the tags #munich, #germany, #my-love."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Hi Mark, could send me the photo your wife took of me? Thanks.",
+              "to address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Hi Mark, could send me the photo your wife took of me? Thanks.",
+              "recipients": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600490,
+        "name": "upload public photo from url",
+        "params": {
+          "photo url": "<return1>.attachment",
+          "tags": "#munich, #germany, #my-love"
+        }
+      }
+    ],
+    "id": 1003,
+    "nl_command_statment": "Send this email to Mark: \"Hi Mark, could send me the photo your wife took of me? Thanks.\" When Mark sends the photo, post it on Flickr using the tags #munich, #germany, #my-love."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "the photo his wife took of me when we were in Munich",
+              "to address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "the photo his wife took of me when we were in Munich",
+              "recipients": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600490,
+        "name": "upload public photo from url",
+        "params": {
+          "photo url": "<return1>.attachment",
+          "tags": "#munich, #germany, #my-love"
+        }
+      }
+    ],
+    "id": 1004,
+    "nl_command_statment": "Contact Mark by email and ask for the photo his wife took of me when we were in Munich. When the photo arrive, publish it on my Flickr account. Use tags #munich, #germany, #my-love."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Hi Mark, please send me the photo took in Munich",
+              "to address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Hi Mark, please send me the photo took in Munich",
+              "recipients": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "mark@gmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "mark@gmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600490,
+        "name": "upload public photo from url",
+        "params": {
+          "photo url": "<return1>.attachment",
+          "tags": "#germany #munich #mylove"
+        }
+      }
+    ],
+    "id": 1005,
+    "nl_command_statment": "Send the following message to mark@gmail.com: \"Hi Mark, please send me the photo took in Munich\". As soon as the answer arrives, get the attached photo and put it in my Flickr account using the tags #germany #munich #mylove."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "george@semanticmail.com"
+        }
+      }
+    ],
+    "id": 1101,
+    "nl_command_statment": "Search for an image of Saturn in Flickr and attach it to an email. Send this mail to my son saying \"I love you\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "george@semanticmail.com"
+        }
+      }
+    ],
+    "id": 1102,
+    "nl_command_statment": "Write the text \"I Love you\" in an email to my son. Search for an image of the Saturn planet on Flickr, attach it to the email and send it."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "maria@alice.com.br"
+        }
+      }
+    ],
+    "id": 1103,
+    "nl_command_statment": "Using my email, create a romantic message writing \"I love you\". Search for an image of Saturn in Flickr and attach it to the email. Send to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "maria@alice.com.br"
+        }
+      }
+    ],
+    "id": 1104,
+    "nl_command_statment": "Write \"I love you\" in an email to my wife. Search for Saturn on Flickr. Upload the image you found to the mail and send it."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "maria@alice.com.br"
+        }
+      }
+    ],
+    "id": 1105,
+    "nl_command_statment": "Search for a picture of Saturn in Flickr and attach it to an email to my wife with the message \"I love you\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Saturn"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.image_url",
+          "body": "I love you",
+          "to address": "maria@alice.com.br"
+        }
+      }
+    ],
+    "id": 1106,
+    "nl_command_statment": "Find an image of Saturn on Flickr. Send an email to my wife saying \"I love you\" and attaching the image found on Flickr."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700007,
+        "name": "search video on YouTube",
+        "params": {
+          "query": "Bachianas N.5 of Villa-Lobos"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.video_url",
+              "to address": "cristina@avilla.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.video_url",
+              "recipients": "cristina@avilla.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1201,
+    "nl_command_statment": "Find \"Bachianas N.5 of Villa-Lobos\" on Youtube. Get the link and send to my mum."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700007,
+        "name": "search video on YouTube",
+        "params": {
+          "query": "Bachianas N.5 of Villa-Lobos"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.video_url",
+              "subject": "Have a nice day!",
+              "to address": "cristina@avilla.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.video_url",
+              "recipients": "cristina@avilla.com",
+              "subject": "Have a nice day!"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1202,
+    "nl_command_statment": "Do a search for Bachianas N.5 of Villa-Lobos. Send it to my mother by email with the subject \"Have a nice day!\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700007,
+        "name": "search video on YouTube",
+        "params": {
+          "query": "Bachianas N.5 of Villa-Lobos"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.video_url",
+              "to address": "cristina@avilla.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.video_url",
+              "recipients": "cristina@avilla.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1203,
+    "nl_command_statment": "Send to my mum's email the music Bachianas N.5 of Villa-Lobos from Youtube."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700007,
+        "name": "search video on YouTube",
+        "params": {
+          "query": "Bachianas N.5 of Villa-Lobos"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.video_url",
+              "to address": "cristina@avilla.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.video_url",
+              "recipients": "cristina@avilla.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1204,
+    "nl_command_statment": "Please send a link of Bachianas N.5 of Villa-Lobos from Youtube to my mother for her birthday."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment",
+          "message": "New Open Position"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment",
+          "tweet text": "New Open Position"
+        }
+      }
+    ],
+    "id": 1301,
+    "nl_command_statment": "When I receive an email by George, please post on my Twitter and Facebook the image attached in it with this message: New Open Position."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment"
+        }
+      }
+    ],
+    "id": 1302,
+    "nl_command_statment": "Share on Facebook and Twitter the job advert image that will be sent by George through e-mail."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment"
+        }
+      }
+    ],
+    "id": 1303,
+    "nl_command_statment": "Share with my Twitter and Facebook contacts the photo present in George's email that will arrive soon."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment",
+          "message": "New Open Position"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment",
+          "tweet text": "New Open Position"
+        }
+      }
+    ],
+    "id": 1304,
+    "nl_command_statment": "When an email from George arrives, share the attached image with all my contacts on Twitter and Facebook writing this message: New Open Position."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment"
+        }
+      }
+    ],
+    "id": 1305,
+    "nl_command_statment": "Check new emails from George; share the attached photo on my Twitter and Facebook accounts."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601733,
+        "name": "post a tweet with image",
+        "params": {
+          "image url": "<return1>.attachment"
+        }
+      }
+    ],
+    "id": 1306,
+    "nl_command_statment": "If I receive an email from George, get the attached photo and publish on Twitter and Facebook."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1401,
+    "nl_command_statment": "Get tweets containing the hashtag #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1402,
+    "nl_command_statment": "Show me new tweets with the hashtag #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1403,
+    "nl_command_statment": "Write the #ChampionsLeague hashtag on Twitter to find out who won the final game of the Champions League."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1404,
+    "nl_command_statment": "List tweets containing #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1405,
+    "nl_command_statment": "Check #ChampionsLeague on Twitter."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1406,
+    "nl_command_statment": "Search for tweets containing the hashtag #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1407,
+    "nl_command_statment": "Collect posts on Twitter with #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#ChampionsLeague"
+        }
+      }
+    ],
+    "id": 1408,
+    "nl_command_statment": "Get twits that contain the hashtag #ChampionsLeague."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Centre"
+        }
+      }
+    ],
+    "id": 1501,
+    "nl_command_statment": "Please, could you guide me to go from Dublin City Centre to Galway?"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Centre"
+        }
+      }
+    ],
+    "id": 1502,
+    "nl_command_statment": "My current place is Dublin City Centre. Show me the directions to go to Galway."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Centre"
+        }
+      }
+    ],
+    "id": 1503,
+    "nl_command_statment": "Tell me how to go from Dublin City Centre to Galway City."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Centre"
+        }
+      }
+    ],
+    "id": 1504,
+    "nl_command_statment": "Show me the directions to go to Galway from Dublin City Centre."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Centre"
+        }
+      }
+    ],
+    "id": 1505,
+    "nl_command_statment": "Check on Google Maps how can I reach Galway when departing from Dublin City Centre."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin"
+        }
+      }
+    ],
+    "id": 1506,
+    "nl_command_statment": "Show the best route from Dublin to Galway"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 502328,
+        "name": "directions",
+        "params": {
+          "ending": "Galway",
+          "starting": "Dublin City Center"
+        }
+      }
+    ],
+    "id": 1507,
+    "nl_command_statment": "Give me directions from Dublin City Center to Galway."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600352,
+        "name": "new item from search",
+        "params": {
+          "max price": "700 Euro",
+          "search terms": "iPhone 7"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1601,
+    "nl_command_statment": "Search on eBay for the iPhone 7 with the maximum price of 700 Euro and send the result list by e-mail to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600352,
+        "name": "new item from search",
+        "params": {
+          "max price": "800 Euro",
+          "search terms": "iPhone 7"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1602,
+    "nl_command_statment": "On eBay, search for \"iPhone 7\". If it costs less than 800 EUR, send the results by email to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600352,
+        "name": "new item from search",
+        "params": {
+          "max price": "300 Euro",
+          "search terms": "iPhone 7"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1603,
+    "nl_command_statment": "Check the price of the iPhone 7. Only if it costs less than 300 EUR, send an email to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600352,
+        "name": "new item from search",
+        "params": {
+          "max price": "700 Euro",
+          "search terms": "iPhone 7"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1604,
+    "nl_command_statment": "Check the iPhone 7 price. In case that the price is less than 700 EUR, let my wife know."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600352,
+        "name": "new item from search",
+        "params": {
+          "max price": "300 Euro",
+          "search terms": "iPhone 7"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1605,
+    "nl_command_statment": "Check the price of the iPhone 7; If its price is less than 300 EUR, send to my wife an email with the information;"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Dear, please let me know when we can meet.",
+              "to address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Dear, please let me know when we can meet.",
+              "recipients": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1701,
+    "nl_command_statment": "Send an email to Dr Brown with the following message: \"Dear, please let me know when we can meet.\". When he answers, forward to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "the right day to make an appointment with him",
+              "to address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "the right day to make an appointment with him",
+              "recipients": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1702,
+    "nl_command_statment": "Send to Dr Brown an email asking the right day to make an appointment with him. When I receive the reply, let my wife know."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Dear, when can we meet?",
+              "to address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Dear, when can we meet?",
+              "recipients": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1703,
+    "nl_command_statment": "Write this email to Dr Brown:\"Dear, when can we meet?\". When you receive an answer, send the information to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "Dear, what is the suitable day for a meeting?",
+              "to address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "Dear, what is the suitable day for a meeting?",
+              "recipients": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1704,
+    "nl_command_statment": "Send this message to Dr Brown by email: \"Dear, what is the suitable day for a meeting?\". When he replies, forward the email to my wife."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "a suitable day for a meeting",
+              "to address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "a suitable day for a meeting",
+              "recipients": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "george@semanticmail.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "george@semanticmail.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return2>",
+              "to address": "maria@alice.com.br"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return2>",
+              "recipients": "maria@alice.com.br"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 1705,
+    "nl_command_statment": "Message Dr Brown by email, asking a suitable day for a meeting; When I receive the information, sent to my wife by email;"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW logo"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "comment": "Thanks for the internship opportunity, BMW!",
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1801,
+    "nl_command_statment": "Publish in Linkedin this announcement under a BMW logo: Thanks for the internship opportunity, BMW!"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW logo"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "comment": "Thanks for the internship opportunity, BMW!",
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1802,
+    "nl_command_statment": "Find the BMW logo on Flickr. Publish it on LinkedIn along with this message: Thanks for the internship opportunity, BMW!"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW car"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "comment": "I got an Internship :)",
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1803,
+    "nl_command_statment": "Upload an image of a BMW car to my LinkedIn account and write this message: \"I got an Internship :)\". Find the image on Flickr."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW logo"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "comment": "I got an Internship at BMW :)",
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1804,
+    "nl_command_statment": "Search for the BMW logo and publish it with the following message in my Linkedin account: I got an Internship at BMW :)."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW logo"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "comment": "Happy to announce that got an internship at BMW.",
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1805,
+    "nl_command_statment": "Find an image of the BMW logo on Flickr. Make a post on LinkedIn with that logo and this text: \"Happy to announce that got an internship at BMW.\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "BMW logo"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "image url": "<return1>.image_url"
+        }
+      }
+    ],
+    "id": 1806,
+    "nl_command_statment": "Search for a picture of the BMW logo to post on my LinkedIn timeline."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Darth Vader"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.image_url",
+          "message": "Hi guys, let's go to watch StarWars tonight?!"
+        }
+      }
+    ],
+    "id": 1901,
+    "nl_command_statment": "Write a post to all of my Facebook's friends including a photo of Darth Vader and this message: \"Hi guys, let's go to watch StarWars tonight?!\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Darth Vader"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.image_url",
+          "message": "Hi guys, let's watch the Star Wars movie next Friday?"
+        }
+      }
+    ],
+    "id": 102,
+    "nl_command_statment": "Search for \"Darth Vader\" on Flickr. Upload the photo and the following message on Facebook: Hi guys, let's watch the Star Wars movie next Friday?"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Darth Vader"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.image_url",
+          "message": "May The Force Be With Us Next Friday!!!"
+        }
+      }
+    ],
+    "id": 1903,
+    "nl_command_statment": "Find a picture of Darth Vader on Flickr. Post this text to my friends on Facebook with the picture of Darth Vader: May The Force Be With Us Next Friday!!!"
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Yoda"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>.image_url",
+          "message": "Friends, let's go to the cinema to the see Star Wars on Friday."
+        }
+      }
+    ],
+    "id": 1904,
+    "nl_command_statment": "Search for a picture of Yoda. Attach that image in a Facebook post and write this: Friends, let's go to the cinema to the see Star Wars on Friday."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "20:00",
+          "subject": "Collect the boxes",
+          "which day?": "25.07"
+        }
+      }
+    ],
+    "id": 2001,
+    "nl_command_statment": "Schedule an appointment in my agenda: \"Collect the boxes\" on July 25 at 8 pm."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "7:00",
+          "subject": "Travel",
+          "which day?": "12.06"
+        }
+      }
+    ],
+    "id": 2002,
+    "nl_command_statment": "Register in my agenda an appointment called \"Travel\" at 12th June and program the alarm for 7 AM at that day."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "7:00",
+          "subject": "go to the Doctor",
+          "which day?": "19.10"
+        }
+      }
+    ],
+    "id": 2003,
+    "nl_command_statment": "Please add a reminder to my agenda to go to the Doctor on 19th Act at 7:00."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "13:00",
+          "subject": "Travel",
+          "which day?": "13.08"
+        }
+      }
+    ],
+    "id": 2004,
+    "nl_command_statment": "Set an appointment on August 13 at 13h naming it \"Travel\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "20:00",
+          "subject": "Collect the boxes",
+          "which day?": "25.06"
+        }
+      }
+    ],
+    "id": 2005,
+    "nl_command_statment": "Add in my agenda the event \"Wine Festival\" on 12th June at 7 PM."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700009,
+        "name": "create calendar item",
+        "params": {
+          "at what time?": "18:00",
+          "subject": "Discovering the German Gastronomy",
+          "which day?": "12.06"
+        }
+      }
+    ],
+    "id": 2006,
+    "nl_command_statment": "Please set up an appointment for me. The event name is \"Discovering the German Gastronomy\". The day is 12th June. The time is 18h."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#LaFiesta"
+        }
+      },
+      {
+        "block": {
+          "id": 700010,
+          "name": "send a direct message",
+          "params": {
+            "message": "Thank you for your message. Our team will reply you soon.",
+            "user": "<item>.user"
+          }
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 2101,
+    "nl_command_statment": "Search for the hashtag #LaFiesta. For each found tweet, reply with this message: \"Thank you for your message. Our team will reply you soon.\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#LaFiesta"
+        }
+      },
+      {
+        "block": {
+          "id": 700010,
+          "name": "send a direct message",
+          "params": {
+            "message": "Thanks for your contact.",
+            "user": "<item>.user"
+          }
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 2102,
+    "nl_command_statment": "Check the tweets with hashtag #LaFiesta. For each tweet that was found give this reply: Thanks for your contact."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#LaFiesta"
+        }
+      },
+      {
+        "block": {
+          "id": 700010,
+          "name": "send a direct message",
+          "params": {
+            "message": "Thanks! I will answer in detail later.",
+            "user": "<item>.user"
+          }
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 2103,
+    "nl_command_statment": "Check #LaFiesta on Twitter. Reply everyone with this message: Thanks! I will answer in detail later."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#LaFiesta"
+        }
+      },
+      {
+        "block": {
+          "id": 700010,
+          "name": "send a direct message",
+          "params": {
+            "message": "Thanks! I will answer in detail later",
+            "user": "<item>.user"
+          }
+        },
+        "list": "<return1>"
+      }
+    ],
+    "id": 2104,
+    "nl_command_statment": "Find people using #LaFiesta in Twitter; If it was found, write to everybody \"Thanks! I will answer in detail later\";"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "carmen@souza.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "carmen@souza.cl"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "<return1>.attachment"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "de",
+              "text": "<return2>",
+              "to": "en"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "de",
+              "languageToConvert": "en",
+              "text": "<return2>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return2>",
+              "source": "de",
+              "target": "en"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600209,
+            "name": "create a text file",
+            "params": {
+              "content": "<return3>",
+              "file name": "english-version.txt"
+            }
+          },
+          {
+            "id": 600350,
+            "name": "create a text file",
+            "params": {
+              "content": "<return3>",
+              "file name": "english-version.txt"
+            }
+          },
+          {
+            "id": 600614,
+            "name": "create a document",
+            "params": {
+              "content": "<return3>",
+              "document name": "english-version.txt"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return4>",
+          "body": "Please, see if this candidate is suitable for our opened position.",
+          "to address": "helena@university.com"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "helena@university.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "helena@university.com"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return5>",
+              "to address": "carmen@souza.cl"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return5>",
+              "recipients": "carmen@souza.cl"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 2601,
+    "nl_command_statment": "Get the CV attached to a new email sent by Carmen Souza. Translate it from German to English saving the content in \"english-version.txt\" and send the new copy to Maria Helena by email saying: Please, see if this candidate is suitable for our opened position. When she answers, forward the message to Mrs Souza."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "carmen@souza.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "carmen@souza.cl"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "<return1>.attachment"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "de",
+              "text": "<return2>",
+              "to": "en"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "de",
+              "languageToConvert": "en",
+              "text": "<return2>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return2>",
+              "source": "de",
+              "target": "en"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600209,
+            "name": "create a text file",
+            "params": {
+              "content": "<return3>",
+              "file name": "english-version.txt"
+            }
+          },
+          {
+            "id": 600350,
+            "name": "create a text file",
+            "params": {
+              "content": "<return3>",
+              "file name": "english-version.txt"
+            }
+          },
+          {
+            "id": 600614,
+            "name": "create a document",
+            "params": {
+              "content": "<return3>",
+              "document name": "english-version.txt"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return4>",
+          "body": "please evaluate the candidate",
+          "to address": "helena@university.com"
+        }
+      }
+    ],
+    "id": 2602,
+    "nl_command_statment": "When a new email from Carmen Souza arrives, Translate the attached CV from German to English. Save the translated version in the file \"english-version.txt\". Then forward the translated file to Mrs Helena, asking her to please evaluate the candidate."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "carmen@souza.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "carmen@souza.cl"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "<return1>.attachment"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 501371,
+            "name": "translate",
+            "params": {
+              "from": "de",
+              "text": "<return2>",
+              "to": "en"
+            }
+          },
+          {
+            "id": 501915,
+            "name": "translate",
+            "params": {
+              "languageConverted": "de",
+              "languageToConvert": "en",
+              "text": "<return2>"
+            }
+          },
+          {
+            "id": 503292,
+            "name": "translate",
+            "params": {
+              "input": "<return2>",
+              "source": "de",
+              "target": "en"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return3>",
+              "to address": "helena@university.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return3>",
+              "recipients": "helena@university.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 2603,
+    "nl_command_statment": "Check if there is a new email from Carmen Souza. If it is true then translate the attachment from German to English and send to Maria Helena."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "helena@university.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "helena@university.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600761,
+        "name": "print document",
+        "params": {
+          "document url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "text": "Hi Anna, the document is in the printer",
+          "user name": "jsanders"
+        }
+      },
+      {
+        "id": 500797,
+        "name": "convert-file",
+        "params": {
+          "file": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "image url": "<return4>"
+        }
+      }
+    ],
+    "id": 2605,
+    "nl_command_statment": "Get the file attached to a new email that will be sent to me from Helena. Print the file and send this Skype message to John Sanders: Hi John, the document is in the printer. Additionally, convert the file from PDF to PNG and publish it on LinkedIn."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "helena@university.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "helena@university.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600761,
+        "name": "print document",
+        "params": {
+          "document url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "text": "Hi Mr Sanders, the document is in the printer",
+          "user name": "jsanders"
+        }
+      }
+    ],
+    "id": 2606,
+    "nl_command_statment": "When I receive an email from Helena, get the attachment. Print it and write to Mr Sanders by Skype: Hi Mr Sanders, the document is in the printer."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "helena@university.com"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "helena@university.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600761,
+        "name": "print document",
+        "params": {
+          "document url": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "text": "the final version is in the printer for him revision",
+          "user name": "jsanders"
+        }
+      },
+      {
+        "id": 500797,
+        "name": "convert-file",
+        "params": {
+          "file": "<return1>.attachment"
+        }
+      },
+      {
+        "id": 600979,
+        "name": "share a link",
+        "params": {
+          "image url": "<return4>"
+        }
+      }
+    ],
+    "id": 2607,
+    "nl_command_statment": "Print the pdf file attached to a new email that I will receive from Helena and send a message to my secretary John Sanders saying that the final version is in the printer for him revision. Also, convert the original file from PDF to PNG and publish on my LinkedIn account."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700011,
+        "name": "any new post by someone",
+        "params": {
+          "user": "h1987"
+        }
+      },
+      {
+        "id": 700011,
+        "name": "any new post by someone",
+        "params": {
+          "user": "h1987"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "id": "700012",
+          "name": "contains expression",
+          "params": {
+            "expression": "pokemon",
+            "text": "<return1>.Message"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "Stop talking about Pokemon. Go study!",
+            "user name": "hele87"
+          }
+        }
+      }
+    ],
+    "id": 2901,
+    "nl_command_statment": "Whenever my daughter writes using Facebook, send the post to monitoring@family.com with the subject 'Facebook'. If the post contains the word \"pokemon\", send her this Skype message: \"Stop talking about Pokemon. Go study!\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700011,
+        "name": "any new post by someone",
+        "params": {
+          "user": "hele87"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>",
+              "to address": "monitoring@family.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>",
+              "recipients": "monitoring@family.com"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "id": 700012,
+          "name": "contains expression",
+          "params": {
+            "expression": "BREXIT",
+            "text": "<return1>.Message"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.Message",
+            "user name": "maria.alice"
+          }
+        }
+      }
+    ],
+    "id": 2902,
+    "nl_command_statment": "Catch Luiza's Facebook posts and send to monitoring@family.com. When the post contains BREXIT, send the post to my wife by Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700011,
+        "name": "any new post by someone",
+        "params": {
+          "user": "hele87"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "id": 700012,
+          "name": "contains expression",
+          "params": {
+            "expression": "Trump",
+            "text": "<return1>.Message"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.Message",
+            "user name": "maria.alice"
+          }
+        }
+      }
+    ],
+    "id": 2903,
+    "nl_command_statment": "For each Facebook post written by Helena, check if it contains \"Trump\". If yes, send to my wife's Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "3344333444",
+              "email address": "julian@brown.com",
+              "name": "Julian Brown"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "julian@brown.com",
+              "full name": "Julian Brown",
+              "phonenumber": "3344333444"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3111,
+    "nl_command_statment": "Include a new contact in my agenda, where the name is Julian Brown, the phone is 3344333444 and the email is julian@brown.com."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "3344333444",
+              "email address": "julian@brown.com",
+              "name": "Julian Brown"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "julian@brown.com",
+              "full name": "Julian Brown",
+              "phonenumber": "3344333444"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3112,
+    "nl_command_statment": "Add Julian Brown in my contact list. Phone 3344333444, email julian@brown.com."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "3344 333 444",
+              "email address": "julian@brown.com",
+              "name": "Julian Brown"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "julian@brown.com",
+              "full name": "Julian Brown",
+              "phonenumber": "3344 333 444"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3113,
+    "nl_command_statment": "Please add Julian Brown in my agenda with the phone: 3344 333 444, and email: julian@brown.com."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3121,
+    "nl_command_statment": "New entry in my agenda. the Name: Jean Meer. Enter the phone: +1-888-747-8585. Enter the email: jean@meer.org"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3122,
+    "nl_command_statment": "Include in my phonebook this information :Name: Jean Meer. Contact Number: +1-888-747-8585. Email: jean@meer.org"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3123,
+    "nl_command_statment": "Add new contact. Name Jean Meer; Add phone number + 1-888-747-8585; Add email jean@meer.org. Save."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3124,
+    "nl_command_statment": "Add in my agenda: Jean Meer, + 1-888-747-8585, jean@meer.org."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3125,
+    "nl_command_statment": "Put person in your agenda: Jean Meer, +1-888-747-8585, jean@meer.org."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3126,
+    "nl_command_statment": "place a new entry in my agenda: Jean Meer, + 1-888-747-8585, jean@meer.org."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3127,
+    "nl_command_statment": "Open my agenda;Add entry: Jean Meer, +1-888-747-8585, jean@meer.org;Close agenda;"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601223,
+            "name": "add new contact",
+            "params": {
+              "business phone": "+1-888-747-8585",
+              "email address": "jean@meer.org",
+              "name": "Jean Meer"
+            }
+          },
+          {
+            "id": 600612,
+            "name": "create new contact",
+            "params": {
+              "email": "jean@meer.org",
+              "full name": "Jean Meer",
+              "phonenumber": "+1-888-747-8585"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3128,
+    "nl_command_statment": "Please enter this new contact in my agenda: name Jean Meer, phone number +1-888-747-8585 and email jean@meer.org, in the correct order."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600591,
+        "name": "any new issue",
+        "params": {}
+      },
+      {
+        "alternative": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "sandrinha"
+          }
+        },
+        "condition": "<return1>.RepositoryName == FinanceSystem",
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "johnjohn"
+          }
+        }
+      }
+    ],
+    "id": 3201,
+    "nl_command_statment": "When a new GitHub issue is created, get the repository name. If it is FinanceSystem, send a Skype message to John containing the issue title. Otherwise, write to the Tech Manager."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600591,
+        "name": "any new issue",
+        "params": {}
+      },
+      {
+        "alternative": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "sandrinha"
+          }
+        },
+        "condition": "<return1>.RepositoryName == FinanceSystem",
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "johnjohn"
+          }
+        }
+      }
+    ],
+    "id": 3202,
+    "nl_command_statment": "If someone reports a problem in GitHub, send the problem title by Skype to John, if the project name is FinanceSystem. For all other systems, send a message to the Tech Manager."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600591,
+        "name": "any new issue",
+        "params": {}
+      },
+      {
+        "alternative": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "sandrinha"
+          }
+        },
+        "condition": "<return1>.RepositoryName == FinanceSystem",
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueTitle",
+            "user name": "johnjohn"
+          }
+        }
+      }
+    ],
+    "id": 3203,
+    "nl_command_statment": "For every GitHub issue: get its repository name. If the name is FinanceSystem, copy issue title into a Skype message to John. If not, send the same message to the Tech Manager."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600591,
+        "name": "any new issue",
+        "params": {}
+      },
+      {
+        "alternative": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueBody",
+            "user name": "johnjohn"
+          }
+        },
+        "condition": "<return1>.RepositoryName != FinanceSystem",
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.IssueBody",
+            "user name": "sandrinha"
+          }
+        }
+      }
+    ],
+    "id": 3204,
+    "nl_command_statment": "If an issue is created, send its content to the Tech Manager, except if the repository name is FinanceSystem. In this case, write the message to John."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601206,
+        "name": "new article in section",
+        "params": {
+          "section": "Politics"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.Author == Alexander Maximus",
+        "consequent": [
+          {
+            "id": 600187,
+            "name": "add a bitlink",
+            "params": {
+              "url": "<return1>.ArticleUrl"
+            }
+          },
+          {
+            "id": 601732,
+            "name": "post a tweet",
+            "params": {
+              "tweet text": "<return2>"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3301,
+    "nl_command_statment": "If you find news written by Alexander Maximus in the Politics section of The New York Times, get the URL, shorten it and post on my Twitter."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601206,
+        "name": "new article in section",
+        "params": {
+          "section": "Politics"
+        }
+      },
+      {
+        "id": 600187,
+        "name": "add a bitlink",
+        "params": {
+          "url": "<return1>.ArticleUrl"
+        }
+      },
+      {
+        "id": 601732,
+        "name": "post a tweet",
+        "params": {
+          "tweet text": "<return2>"
+        }
+      }
+    ],
+    "id": 3302,
+    "nl_command_statment": "Capture news from The New York Times, in the Politics section. After that, shorten the link with Bitly and publish it on my Twitter."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601206,
+        "name": "new article in section",
+        "params": {
+          "section": "Politics"
+        }
+      },
+      {
+        "block": [
+          {
+            "id": 600187,
+            "name": "add a bitlink",
+            "params": {
+              "url": "<item>.ArticleUrl"
+            }
+          },
+          {
+            "id": 601732,
+            "name": "post a tweet",
+            "params": {
+              "tweet text": "<return2>"
+            }
+          }
+        ],
+        "list": "<return1>"
+      }
+    ],
+    "id": 3303,
+    "nl_command_statment": "For all new article about Politics in the NYT. Shorten the link with Bitly and publish it on Twitter."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601206,
+        "name": "new article in section",
+        "params": {
+          "section": "Politics"
+        }
+      },
+      {
+        "block": [
+          {
+            "id": 600187,
+            "name": "add a bitlink",
+            "params": {
+              "url": "<item>.ArticleUrl"
+            }
+          },
+          {
+            "id": 601732,
+            "name": "post a tweet",
+            "params": {
+              "tweet text": "<return2>"
+            }
+          }
+        ],
+        "list": "<return1>"
+      }
+    ],
+    "id": 3304,
+    "nl_command_statment": "For each new article in the Politics section in The New York Times, reduce the URL using Bitly and post it in a tweet."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "400 Euro",
+            "search terms": "Nexus 6"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.url",
+            "user name": "skypebrown"
+          }
+        }
+      }
+    ],
+    "id": 3401,
+    "nl_command_statment": "Look for Nexus 6, if it costs less than 400 EUR, send the link to my son's Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "400 Euro",
+            "search terms": "Nexus 6"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "Dear, buy the Nexus 6",
+            "user name": "skypebrown"
+          }
+        }
+      }
+    ],
+    "id": 3403,
+    "nl_command_statment": "If the smartphone Nexus 6 costs less than 400 Euro, send this message to my son in Skype:\"Dear, buy the Nexus 6\"."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "400 Euro",
+            "search terms": "Nexus 6"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "buy the phone",
+            "user name": "skypebrown"
+          }
+        }
+      }
+    ],
+    "id": 3404,
+    "nl_command_statment": "Find the price of the Nexus 6. If it costs less than 400 euros, send a message to my son in Skype asking him to buy the phone"
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 600352,
+          "name": "new item from search",
+          "params": {
+            "max price": "400 Euro",
+            "search terms": "smartphone Nexus 6"
+          }
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "buy the phone",
+            "user name": "skypebrown"
+          }
+        }
+      }
+    ],
+    "id": 3405,
+    "nl_command_statment": "Search for \"smartphone Nexus 6\"; If its price is less than 400 EUR, send this Skype to my son: \"buy the phone\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601888,
+        "name": "picture of the day",
+        "params": {}
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "to address": "newphotos@company.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "recipients": "newphotos@company.com"
+            }
+          }
+        ]
+      },
+      {
+        "id": 600840,
+        "name": "add photo to album",
+        "params": {
+          "album name": "Wiki",
+          "photo url": "<return1>.PictureURL"
+        }
+      }
+    ],
+    "id": 3501,
+    "nl_command_statment": "Wherever the Wikipedia delivers a new picture of the day, send it's link to newphotos@company.com and also add it to iOS Photos in the album 'Wiki'."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601888,
+        "name": "picture of the day",
+        "params": {}
+      },
+      {
+        "id": 600840,
+        "name": "add photo to album",
+        "params": {
+          "album name": "Wiki",
+          "photo url": "<return1>.PictureURL"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return1>.PictureURL",
+          "body": "This is the Wiki Photo of the day",
+          "to address": "helena@university.com"
+        }
+      }
+    ],
+    "id": 3502,
+    "nl_command_statment": "If Wikipedia publishes a new picture, add it to my iOS Photos in the album 'Wiki' and attach it in an email to send to Helena with this message: This is the Wiki Photo of the day."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601888,
+        "name": "picture of the day",
+        "params": {}
+      },
+      {
+        "id": 600840,
+        "name": "add photo to album",
+        "params": {
+          "album name": "Wiki",
+          "photo url": "<return1>.PictureURL"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "to address": "john@company.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "recipients": "john@company.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3503,
+    "nl_command_statment": "When Wikipedia realese a new picture of the day, send it's url to john@company.com and also add it to my iOS Photos, in the album \"Wiki\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601888,
+        "name": "picture of the day",
+        "params": {}
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "image url": "<return1>.PictureURL",
+          "user name": "sebastianx"
+        }
+      },
+      {
+        "id": 600840,
+        "name": "add photo to album",
+        "params": {
+          "image url": "<return1>.PictureURL"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600603,
+            "name": "send an email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "to address": "john@company.com"
+            }
+          },
+          {
+            "id": 601227,
+            "name": "send email",
+            "params": {
+              "body": "<return1>.PictureURL",
+              "recipients": "john@company.com"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3504,
+    "nl_command_statment": "Every day: send the url of the Wikipedia image of the day to my Sykpe; also save it to my iOS Photos."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          },
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3601,
+    "nl_command_statment": "If Manchester United wins the game call me with \"We are the champions, my friends\" plus, In Spotify, add in \"celebrations\" playlist Thriller - Michael Jackson."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          },
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3602,
+    "nl_command_statment": "By winning Manchester United team call me saying: \"We are the champions, my friends\". Include the music Thriller by Michael Jackson into the Spotify playlist called \"celebrations\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          },
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3603,
+    "nl_command_statment": "If Manchester United wins, put Thriller of Michael Jackson in Spotify \"celebrations\" playlist and call me to say \"we are the champions, my friends\"."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          },
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3604,
+    "nl_command_statment": "Get ready to call me in the case of victory of Manchester United. You also should put the music \"Triller by Michael Jackson\" in the 'celebrations' playlist in Spotify."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          },
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3605,
+    "nl_command_statment": "Keeping track of the match of Manchester United team. In the case of the victory, call me to tell \"We are the champions, my friends\". If this happens, also add to the Spotify playlist \"celebrations\", the Michael Jackson's song Thriller."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600408,
+        "name": "new final score",
+        "params": {
+          "team": "Manchester United"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": "<return1>.winner == Manchester United",
+        "consequent": [
+          {
+            "id": 601591,
+            "name": "add track to a playlist",
+            "params": {
+              "artist name": "Michael Jackson",
+              "playlist name": "celebrations",
+              "search query": "Thriller"
+            }
+          },
+          {
+            "id": 601273,
+            "name": "call my phone",
+            "params": {
+              "message to say": "We are the champions, my friends"
+            }
+          },
+          {
+            "id": 601732,
+            "name": "post a tweet",
+            "params": {
+              "tweet text": "<return2>"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3606,
+    "nl_command_statment": "In case Manchester United wins, call me saying \"We are the champions, my friends\" and include the music Thriller by Michael Jackson in the Spotify playlist called \"celebrations\"."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 601684,
+          "name": "new story from section",
+          "params": {
+            "which section?": "business"
+          }
+        },
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "<return1>.description",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "<return1>.description",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 3701,
+    "nl_command_statment": "Check news at Time.com and if it talks about business, forward it's description to John's email."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 601684,
+          "name": "new story from section",
+          "params": {
+            "which section?": "business"
+          }
+        },
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "<return1>.Headline",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "<return1>.Headline",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 3702,
+    "nl_command_statment": "When you find a new article published at Time related to business, forward it's title to my friend John by email."
+  },
+  {
+    "action_instances": [
+      {
+        "block": {
+          "id": 600603,
+          "name": "send an email",
+          "params": {
+            "attachment url": "<item>.ThumbnailURL",
+            "body": "Hi Frank, please check if image is important for our startup.",
+            "to address": "john@fam.com"
+          }
+        },
+        "list": {
+          "id": 601684,
+          "name": "new story from section",
+          "params": {
+            "which section?": "business"
+          }
+        }
+      }
+    ],
+    "id": 3703,
+    "nl_command_statment": "Get every news related to business at Time and send their image attached by email to John with this message: Hi John, please check if image is important for our startup."
+  },
+  {
+    "action_instances": [
+      {
+        "block": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "<item>",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "<item>",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        },
+        "list": {
+          "id": 601684,
+          "name": "new story from section",
+          "params": {
+            "which section?": "business"
+          }
+        }
+      }
+    ],
+    "id": 3704,
+    "nl_command_statment": "For each news published at Time in the business section, send the news to John Sanders by email."
+  },
+  {
+    "action_instances": [
+      {
+        "alternative": null,
+        "condition": {
+          "id": 601684,
+          "name": "new story from section",
+          "params": {
+            "which section?": "business"
+          }
+        },
+        "consequent": {
+          "options": [
+            {
+              "id": 600603,
+              "name": "send an email",
+              "params": {
+                "body": "<return1>",
+                "to address": "john@fam.com"
+              }
+            },
+            {
+              "id": 601227,
+              "name": "send email",
+              "params": {
+                "body": "<return1>",
+                "recipients": "john@fam.com"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "id": 3705,
+    "nl_command_statment": "Look for news related to business in Time.com. Whatever you find, put it's image attached to John with this message: \"Hi John, please check this image. Thanks\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601684,
+        "name": "new story from section",
+        "params": {
+          "which section?": "business"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<item>.ThumbnailURL",
+          "body": "Hi Frank, please check this image. Thanks",
+          "to address": "john@fam.com"
+        }
+      }
+    ],
+    "id": 3706,
+    "nl_command_statment": "Monitor and submit business articles from Time.com to my college John by email."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#FinSysFail"
+        }
+      },
+      {
+        "id": 600596,
+        "name": "create an issue",
+        "params": {
+          "body": "<item>.text",
+          "repository": "FinSys"
+        }
+      },
+      {
+        "block": {
+          "id": 600596,
+          "name": "create an issue",
+          "params": {
+            "body": "<item>.text",
+            "repository": "FinSys"
+          }
+        },
+        "list": {
+          "id": 700008,
+          "name": "tweets from search",
+          "params": {
+            "search for": "#FinSysFail"
+          }
+        }
+      }
+    ],
+    "id": 3801,
+    "nl_command_statment": "Create issues on GitHub with the content of the tweets that containing #FinSysFail. The issue's repository is \"FinSys\""
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#FinSysFail"
+        }
+      },
+      {
+        "id": 600596,
+        "name": "create an issue",
+        "params": {
+          "body": "<item>.text",
+          "repository": "FinSys"
+        }
+      },
+      {
+        "block": {
+          "id": 600596,
+          "name": "create an issue",
+          "params": {
+            "body": "<item>.text",
+            "repository": "FinSys"
+          }
+        },
+        "list": {
+          "id": 700008,
+          "name": "tweets from search",
+          "params": {
+            "search for": "#FinSysFail"
+          }
+        }
+      }
+    ],
+    "id": 3802,
+    "nl_command_statment": "Check the tweets with the hashtag \"#FinSysFail\". If found, then copy the message and transform it into a GitHub issue under the project FinSys."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#FinSysFail"
+        }
+      },
+      {
+        "id": 600596,
+        "name": "create an issue",
+        "params": {
+          "body": "<item>.text",
+          "repository": "FinSys"
+        }
+      },
+      {
+        "block": {
+          "id": 600596,
+          "name": "create an issue",
+          "params": {
+            "body": "<item>.text",
+            "repository": "FinSys"
+          }
+        },
+        "list": {
+          "id": 700008,
+          "name": "tweets from search",
+          "params": {
+            "search for": "#FinSysFail"
+          }
+        }
+      }
+    ],
+    "id": 3803,
+    "nl_command_statment": "Check the hashtag #FinSysFail. For each tweet, open a new issue with the tweet content for the system FinSys."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700008,
+        "name": "tweets from search",
+        "params": {
+          "search for": "#FinSysFail"
+        }
+      },
+      {
+        "id": 600596,
+        "name": "create an issue",
+        "params": {
+          "body": "<item>.text",
+          "repository": "FinSys"
+        }
+      },
+      {
+        "block": {
+          "id": 600596,
+          "name": "create an issue",
+          "params": {
+            "body": "<item>.text",
+            "repository": "FinSys"
+          }
+        },
+        "list": {
+          "id": 700008,
+          "name": "tweets from search",
+          "params": {
+            "search for": "#FinSysFail"
+          }
+        }
+      }
+    ],
+    "id": 3804,
+    "nl_command_statment": "For every tweet with \"#FinSysFail\", create a new issue in the GitHub repository FinSys."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600831,
+            "name": "enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          },
+          {
+            "id": 600089,
+            "name": "you enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601524,
+            "name": "open garage door",
+            "params": {
+              "which garage door?": "main garage door"
+            }
+          },
+          {
+            "id": 600539,
+            "name": "open garage door",
+            "params": {
+              "which door?": "main garage door"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3901,
+    "nl_command_statment": "Open the main garage door every time I arrive at Central Park."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600831,
+            "name": "enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          },
+          {
+            "id": 600089,
+            "name": "you enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601524,
+            "name": "open garage door",
+            "params": {
+              "which garage door?": "main garage door"
+            }
+          },
+          {
+            "id": 600539,
+            "name": "open garage door",
+            "params": {
+              "which door?": "main garage door"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3902,
+    "nl_command_statment": "Open the garage door when passing through Central Park"
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600831,
+            "name": "enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          },
+          {
+            "id": 600089,
+            "name": "you enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601524,
+            "name": "open garage door",
+            "params": {
+              "which garage door?": "main garage door"
+            }
+          },
+          {
+            "id": 600539,
+            "name": "open garage door",
+            "params": {
+              "which door?": "main garage door"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3903,
+    "nl_command_statment": "If I arrive in Central Park, open my garage."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600831,
+            "name": "enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          },
+          {
+            "id": 600089,
+            "name": "you enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601524,
+            "name": "open garage door",
+            "params": {
+              "which garage door?": "main garage door"
+            }
+          },
+          {
+            "id": 600539,
+            "name": "open garage door",
+            "params": {
+              "which door?": "main garage door"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3904,
+    "nl_command_statment": "Open the door always when reached Central Park."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 600831,
+            "name": "enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          },
+          {
+            "id": 600089,
+            "name": "you enter an area",
+            "params": {
+              "locate an area": "Central Park"
+            }
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "id": 601524,
+            "name": "open garage door",
+            "params": {
+              "which garage door?": "main garage door"
+            }
+          },
+          {
+            "id": 600539,
+            "name": "open garage door",
+            "params": {
+              "which door?": "main garage door"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 3905,
+    "nl_command_statment": "Open the garage door when I arrive in Central Park."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4001,
+    "nl_command_statment": "Check the air quality in the device \"RoomA\". if it is poor, turn on the red light in the Kitchen."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4002,
+    "nl_command_statment": "Turn on the red light if the air quality is poor in RoomA."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4003,
+    "nl_command_statment": "Please turn on the red light when the air quality is poor in the in \"RoomA\" device."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4004,
+    "nl_command_statment": "Check the rating of air quality in the RoomA equipament. If air quality is poor turn on red light."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4005,
+    "nl_command_statment": "Verify the air quality in the sensor named \"RoomA\". If it is poor, turn on the red light."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4006,
+    "nl_command_statment": "When the air quality in the sensor called \"RoomA\" is poor, make the light red."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 601791,
+        "name": "air quality changed",
+        "params": {
+          "device": "RoomA",
+          "what air quality range?": "poor"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600913,
+            "name": "change light color",
+            "params": {
+              "which color?": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600528,
+            "name": "change color",
+            "params": {
+              "color": "red",
+              "which device?": "Kitchen"
+            }
+          },
+          {
+            "id": 600768,
+            "name": "change color",
+            "params": {
+              "color value or name": "red",
+              "which lights?": "Kitchen"
+            }
+          },
+          {
+            "id": 600007,
+            "name": "change color",
+            "params": {
+              "select a color": "red",
+              "which device?": "Kitchen"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4007,
+    "nl_command_statment": "Turn on a red light when the quality of the air is poor."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 503830,
+            "name": "widget-search-json-1",
+            "params": {
+              "search": "movie"
+            }
+          },
+          {
+            "id": 502654,
+            "name": "quote",
+            "params": {
+              "category": "movie"
+            }
+          },
+          {
+            "id": 502832,
+            "name": "quote",
+            "params": {
+              "genre": "movie"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Einstein"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return2>.image_url",
+          "message": "<return1>"
+        }
+      }
+    ],
+    "id": 4101,
+    "nl_command_statment": "Get any movie quotation. Also get any Einstein image. Publish both on my Facebook page now."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 503830,
+            "name": "widget-search-json-1",
+            "params": {
+              "search": "movie"
+            }
+          },
+          {
+            "id": 502654,
+            "name": "quote",
+            "params": {
+              "category": "movie"
+            }
+          },
+          {
+            "id": 502832,
+            "name": "quote",
+            "params": {
+              "genre": "movie"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Einstein"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return2>.image_url",
+          "message": "<return1>"
+        }
+      }
+    ],
+    "id": 4102,
+    "nl_command_statment": "Find a quote from a movie and a photo of Einstein. Create a post on my Facebook account with them."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 503830,
+            "name": "widget-search-json-1",
+            "params": {
+              "search": "science"
+            }
+          },
+          {
+            "id": 502654,
+            "name": "quote",
+            "params": {
+              "category": "science"
+            }
+          },
+          {
+            "id": 502832,
+            "name": "quote",
+            "params": {
+              "genre": "science"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "Paris"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return2>.image_url",
+          "body": "<return1>",
+          "subject": null,
+          "to address": "maria@hotmail.com"
+        }
+      }
+    ],
+    "id": 4104,
+    "nl_command_statment": "Get a quote about science. Get a photo of Paris. Attach the photo in an email, write the quote and send to maria@hotmail.com."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 503830,
+            "name": "widget-search-json-1",
+            "params": {
+              "search": "politics"
+            }
+          },
+          {
+            "id": 502654,
+            "name": "quote",
+            "params": {
+              "category": "politics"
+            }
+          },
+          {
+            "id": 502832,
+            "name": "quote",
+            "params": {
+              "genre": "politics"
+            }
+          }
+        ]
+      },
+      {
+        "id": 700006,
+        "name": "search image on Flickr",
+        "params": {
+          "query": "book"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return2>.image_url",
+          "message": "<return1>"
+        }
+      }
+    ],
+    "id": 4105,
+    "nl_command_statment": "Get a citation from politics and the photo of a book. Include them in a Facebook post and submit."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700011,
+        "name": "any new post by someone",
+        "params": {
+          "user": "my son on Facebook"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "options": [
+            {
+              "id": 503641,
+              "name": "porn-filter-by-image-url",
+              "params": {
+                "search": "<return1>.FirstLinkUrl"
+              }
+            },
+            {
+              "id": 502456,
+              "name": "detect-nudity-in-web-hosted-image",
+              "params": {
+                "category": "<return1>.FirstLinkUrl"
+              }
+            },
+            {
+              "id": 503187,
+              "name": "nudity-check",
+              "params": {
+                "genre": "<return1>.FirstLinkUrl"
+              }
+            },
+            {
+              "id": 503063,
+              "name": "nudity-detection-on-public-url",
+              "params": {
+                "genre": "<return1>.FirstLinkUrl"
+              }
+            }
+          ]
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.FirstLinkUrl",
+            "user name": "sebastianx"
+          }
+        }
+      }
+    ],
+    "id": 4201,
+    "nl_command_statment": "For every post from my son on Facebook, check if it contains a pornographic photo. If it is porn, send it to my Skype immediately."
+  },
+  {
+    "action_instances": [
+      {
+        "options": [
+          {
+            "id": 601225,
+            "name": "new email from",
+            "params": {
+              "sender's address": "juan@mail.cl"
+            }
+          },
+          {
+            "id": 600599,
+            "name": "new email in inbox from",
+            "params": {
+              "email address": "juan@mail.cl"
+            }
+          }
+        ]
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "options": [
+            {
+              "id": 503641,
+              "name": "porn-filter-by-image-url",
+              "params": {
+                "search": "<return1>.attachment"
+              }
+            },
+            {
+              "id": 502456,
+              "name": "detect-nudity-in-web-hosted-image",
+              "params": {
+                "category": "<return1>.attachment"
+              }
+            },
+            {
+              "id": 503187,
+              "name": "nudity-check",
+              "params": {
+                "genre": "<return1>.attachment"
+              }
+            },
+            {
+              "id": 503063,
+              "name": "nudity-detection-on-public-url",
+              "params": {
+                "genre": "<return1>.attachment"
+              }
+            }
+          ]
+        },
+        "consequent": {
+          "id": 601535,
+          "name": "post message",
+          "params": {
+            "text": "<return1>.attachment",
+            "user name": "sebastianx"
+          }
+        }
+      }
+    ],
+    "id": 4202,
+    "nl_command_statment": "Get the attached image from a new email from juan@mail.cl. Check if the photo is porn. In the case of positive answer, send the photo to my Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503062,
+        "name": "search",
+        "params": {
+          "depart-date": "2016-11-20",
+          "from": "MUC",
+          "return-date": "2016-12-1",
+          "to": "LIS"
+        }
+      }
+    ],
+    "id": 4301,
+    "nl_command_statment": "Find me a flight from the Munich International Airport to Lisbon leaving on 20 November and returning on 1st of December."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503062,
+        "name": "search",
+        "params": {
+          "depart-date": "2016-11-20",
+          "from": "MUC",
+          "return-date": "2016-12-10",
+          "to": "LIS"
+        }
+      }
+    ],
+    "id": 4302,
+    "nl_command_statment": "List flights from MUC to LIS departing on 20 Nov and returning on 10 Dec."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503062,
+        "name": "search",
+        "params": {
+          "depart-date": "2016-11-20",
+          "from": "MUC",
+          "return-date": "2016-12-23",
+          "to": "LIS"
+        }
+      }
+    ],
+    "id": 4303,
+    "nl_command_statment": "Show all tickets on 20 Nov from Munich, Germany to Lisbon, Portugal. Also get the return ticket on 23 Dec."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503062,
+        "name": "search",
+        "params": {
+          "depart-date": "2016-11-21",
+          "from": "MUC",
+          "return-date": "2016-12-12",
+          "to": "LIS"
+        }
+      }
+    ],
+    "id": 4304,
+    "nl_command_statment": "Search for air tickets to travel from Munich to Lisbon on 21 Nov and going back on 12 Dec."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503062,
+        "name": "search",
+        "params": {
+          "depart-date": "2016-11-20",
+          "from": "MUC",
+          "to": "LIS"
+        }
+      }
+    ],
+    "id": 4305,
+    "nl_command_statment": "I'm in Munich, and I want to go to Lisbon. Please, find a flight on 20 Nov."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "job-application.doc"
+        }
+      },
+      {
+        "id": 502335,
+        "name": "check",
+        "params": {
+          "text": "<return1>"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600209,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "final-job-application.txt"
+            }
+          },
+          {
+            "id": 600350,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "final-job-application.txt"
+            }
+          },
+          {
+            "id": 600614,
+            "name": "create a document",
+            "params": {
+              "content": "<return2>",
+              "document name": "final-job-application.txt"
+            }
+          }
+        ]
+      },
+      {
+        "id": 500800,
+        "name": "convert-file",
+        "params": {
+          "documentauthor": "Alexander Jena",
+          "documentsubject": "Job Application 2016",
+          "file": "<return3>",
+          "outputformat": "pdf"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return4>",
+          "to address": "james@hotmail.com"
+        }
+      }
+    ],
+    "id": 4401,
+    "nl_command_statment": "Read the file \"job-application.doc\" and submit its content to the spell checker. Save the corrected content in the file \"final-job-application.txt\". Convert this file to PDF, where the author is Alexander Jena and the doc subject should be \"Job Application 2016\". Send the final PDF attached to james@hotmail.com."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "job-application.doc"
+        }
+      },
+      {
+        "id": 502335,
+        "name": "check",
+        "params": {
+          "text": "<return1>"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 600209,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "final-job-application.txt"
+            }
+          },
+          {
+            "id": 600350,
+            "name": "create a text file",
+            "params": {
+              "content": "<return2>",
+              "file name": "final-job-application.txt"
+            }
+          },
+          {
+            "id": 600614,
+            "name": "create a document",
+            "params": {
+              "content": "<return2>",
+              "document name": "final-job-application.txt"
+            }
+          }
+        ]
+      },
+      {
+        "id": 500800,
+        "name": "convert-file",
+        "params": {
+          "documentauthor": "Alexander Jena",
+          "documentsubject": "Job Application 2016",
+          "file": "<return3>",
+          "outputformat": "pdf"
+        }
+      },
+      {
+        "id": 600603,
+        "name": "send an email",
+        "params": {
+          "attachment url": "<return4>",
+          "to address": "james@hotmail.com"
+        }
+      }
+    ],
+    "id": 4402,
+    "nl_command_statment": "Correct the spell of the file \"job-application.pdf\" and save the results in \"final-job-application.txt\". Create a PDF from the final file and send it attached to james@hotmail.com."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 700002,
+        "name": "read file content",
+        "params": {
+          "file": "job-application.doc"
+        }
+      },
+      {
+        "id": 502335,
+        "name": "check",
+        "params": {
+          "text": "<return1>"
+        }
+      }
+    ],
+    "id": 4403,
+    "nl_command_statment": "Apply the spellchecker in job-application.pdf. Tweet the results."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600326,
+        "name": "take snapshots",
+        "params": {
+          "which camera?": "garden"
+        }
+      },
+      {
+        "id": 600431,
+        "name": "create a link post",
+        "params": {
+          "link url": "<return1>",
+          "message": "This is my wonderful garden"
+        }
+      }
+    ],
+    "id": 4501,
+    "nl_command_statment": "Take a snapshot of the camera located in my gardenand publish it on my Facebook along with this message: This is my wonderful garden."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600326,
+        "name": "take snapshots",
+        "params": {
+          "which camera?": "garden"
+        }
+      },
+      {
+        "id": 600326,
+        "name": "take snapshots",
+        "params": {
+          "which camera?": "garden"
+        }
+      }
+    ],
+    "id": 4502,
+    "nl_command_statment": "Capture the current image of my garden camera and send to Maria Helena on Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 600326,
+        "name": "take snapshots",
+        "params": {
+          "which camera?": "garden"
+        }
+      }
+    ],
+    "id": 4503,
+    "nl_command_statment": "Take a picture using the camera in the garden."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503155,
+        "name": "get-top-definition",
+        "params": {
+          "hashtag": "sqn"
+        }
+      },
+      {
+        "id": 502475,
+        "name": "qr-code",
+        "params": {
+          "content": "<return1>"
+        }
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "text": "<return2>",
+          "user name": "sebastianx"
+        }
+      }
+    ],
+    "id": 4601,
+    "nl_command_statment": "Get the translation of the hashtag #sqn. Convert it to a QR code and send to my Skype account."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 503155,
+        "name": "get-top-definition",
+        "params": {
+          "hashtag": "wtf"
+        }
+      },
+      {
+        "id": 601535,
+        "name": "post message",
+        "params": {
+          "text": "<return1>",
+          "user name": "sebastianx"
+        }
+      }
+    ],
+    "id": 4602,
+    "nl_command_statment": "Translate the hashtag #wtf and send to my Skype."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 500525,
+        "name": "get-profile-pic-url",
+        "params": {
+          "userid": "marialuz"
+        }
+      },
+      {
+        "alternative": null,
+        "condition": {
+          "options": [
+            {
+              "id": 503641,
+              "name": "porn-filter-by-image-url",
+              "params": {
+                "search": "<return1>"
+              }
+            },
+            {
+              "id": 502456,
+              "name": "detect-nudity-in-web-hosted-image",
+              "params": {
+                "category": "<return1>"
+              }
+            },
+            {
+              "id": 503187,
+              "name": "nudity-check",
+              "params": {
+                "genre": "<return1>"
+              }
+            },
+            {
+              "id": 503063,
+              "name": "nudity-detection-on-public-url",
+              "params": {
+                "genre": "<return1>"
+              }
+            }
+          ]
+        },
+        "consequent": [
+          {
+            "id": 600432,
+            "name": "upload a photo from url",
+            "params": {
+              "album": "new friends",
+              "photo url": "<return1>"
+            }
+          },
+          {
+            "options": [
+              {
+                "id": 501700,
+                "name": "create-pdf-from-url",
+                "params": {
+                  "url": "facebook.com/marialuz"
+                }
+              },
+              {
+                "id": 502881,
+                "name": "pdf",
+                "params": {
+                  "url": "facebook.com/marialuz"
+                }
+              },
+              {
+                "id": 502470,
+                "name": "html-to-pdf",
+                "params": {
+                  "content": "facebook.com/marialuz"
+                }
+              },
+              {
+                "id": 502331,
+                "name": "pdf",
+                "params": {
+                  "url": "facebook.com/marialuz"
+                }
+              },
+              {
+                "id": 502675,
+                "name": "api-pdf",
+                "params": {
+                  "url": "facebook.com/marialuz"
+                }
+              }
+            ]
+          },
+          {
+            "id": 600613,
+            "name": "upload file from url",
+            "params": {
+              "file url": "<return4>"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4701,
+    "nl_command_statment": "Get the Facebook profile photo of the account \"marialuz\". If it is not a nudity image, add it to my Facebook album called \"new friends\". Also, create a PDF of facebook.com/marialuz and save the file to my Google Drive."
+  },
+  {
+    "action_instances": [
+      {
+        "id": 500525,
+        "name": "get-profile-pic-url",
+        "params": {
+          "userid": "johnsnow"
+        }
+      },
+      {
+        "options": [
+          {
+            "id": 503641,
+            "name": "porn-filter-by-image-url",
+            "params": {
+              "search": "<return1>"
+            }
+          },
+          {
+            "id": 502456,
+            "name": "detect-nudity-in-web-hosted-image",
+            "params": {
+              "category": "<return1>"
+            }
+          },
+          {
+            "id": 503187,
+            "name": "nudity-check",
+            "params": {
+              "genre": "<return1>"
+            }
+          },
+          {
+            "id": 503063,
+            "name": "nudity-detection-on-public-url",
+            "params": {
+              "genre": "<return1>"
+            }
+          }
+        ]
+      }
+    ],
+    "id": 4702,
+    "nl_command_statment": "Get the Facebook photo of the user \"johnsnow\" and check if it is nudity."
+  }
+]
