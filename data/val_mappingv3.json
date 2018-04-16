@@ -796,7 +796,7 @@
         ]
       }
     ],
-    "id": 97101,
+    "id": 197101,
     "nl_command_statment": "Send an email to Enrico Hernandez with the following message: \u201cHi Enrico, could you please send me the receipt of your favorite pancakes? Thanks\u201d. When he answers, forward to my wife. Also, save the receipt in a document called \u201cenrico-pancake\u201d."
   },
   {
@@ -920,47 +920,5 @@
     ],
     "id": 97122,
     "nl_command_statment": "Get the price of the book The Intelligent Investor. If it costs less than 25 euros, buy it."
-  },
-  {
-    "action_instances": [
-      {
-        "id": 600352,
-        "name": "new item from search",
-        "params": {
-          "max price": "30 euros",
-          "search terms": "The Intelligent Investor"
-        }
-      },
-      {
-        "id": 700004,
-        "name": "buy a product by id",
-        "params": {
-          "id": "<return1>.id"
-        }
-      }
-    ],
-    "id": 97123,
-    "nl_command_statment": "If \"The Intelligent Investor\" is available for less than 30 euros, purchase it for me, please."
-  },
-  {
-    "action_instances": [
-      {
-        "id": 600352,
-        "name": "new item from search",
-        "params": {
-          "max price": "30 euros",
-          "search terms": "The Intelligent Investor"
-        }
-      },
-      {
-        "id": 700004,
-        "name": "buy a product by id",
-        "params": {
-          "id": "<return1>.id"
-        }
-      }
-    ],
-    "id": 97124,
-    "nl_command_statment": "In the case that the book The Intelligent Investor costs up to 30 euros, buy this book."
   }
 ]

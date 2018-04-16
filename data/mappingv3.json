@@ -2792,7 +2792,7 @@
       }
     ],
     "id": 1705,
-    "nl_command_statment": "Message Dr Brown by email, asking a suitable day for a meeting; When I receive the information, sent to my wife by email;"
+    "nl_command_statment": "Message Dr Brown by email, asking a suitable day for a meeting; When I receive the information, send to my wife by email;"
   },
   {
     "action_instances": [
@@ -4025,7 +4025,7 @@
       }
     ],
     "id": 3126,
-    "nl_command_statment": "place a new entry in my agenda: Jean Meer, + 1-888-747-8585, jean@meer.org."
+    "nl_command_statment": "Make a new entry in my agenda: Jean Meer, + 1-888-747-8585, jean@meer.org."
   },
   {
     "action_instances": [
@@ -4081,7 +4081,7 @@
       }
     ],
     "id": 3128,
-    "nl_command_statment": "Please enter this new contact in my agenda: name Jean Meer, phone number +1-888-747-8585 and email jean@meer.org, in the correct order."
+    "nl_command_statment": "Enter this new contact in my agenda: name Jean Meer, phone number +1-888-747-8585 and send jean@meer.org, in the correct order."
   },
   {
     "action_instances": [
@@ -5645,7 +5645,7 @@
       }
     ],
     "id": 4006,
-    "nl_command_statment": "When the air quality in the sensor called \"RoomA\" is poor, make the light red."
+    "nl_command_statment": "When the air quality in the sensor called \"RoomA\" is poor, turn the light red."
   },
   {
     "action_instances": [
@@ -6052,7 +6052,7 @@
       }
     ],
     "id": 4303,
-    "nl_command_statment": "Show all tickets on 20 Nov from Munich, Germany to Lisbon, Portugal. Also get the return ticket on 23 Dec."
+    "nl_command_statment": "Show all tickets on 20 Nov from Munich, Germany to Lisbon, Portugal. Also make the return ticket on 23 Dec."
   },
   {
     "action_instances": [

@@ -2,32 +2,32 @@
   {
     "action_instances": [],
     "id": 97101,
-    "nl_command_statment": "Create a new note in Evernote called \u201cnew laws\u201d. Wherever the president signs a new law, write the title of the law in this note and send the law's official link law to my daughter by email."
+    "nl_command_statment": "Create a new note in Evernote called new laws. Wherever the president signs a new law, write the title of the law in this note and send the law's official link law to my daughter by email."
   },
   {
     "action_instances": [],
     "id": 97102,
-    "nl_command_statment": "Start a new fresh note in Evernote named \u201cnew laws\u201d. If the POTUS signs a law, put its name in the note previously created and forward the law\u2019s official url to my daughter via Skype."
+    "nl_command_statment": "Start a new fresh note in Evernote named new laws. If the POTUS signs a law, put its name in the note previously created and forward the law's official url to my daughter via Skype."
   },
   {
     "action_instances": [],
     "id": 97103,
-    "nl_command_statment": "Put a new note called \u201cnew laws\u201d in Evernote. When the US president approves a new law, append the law\u2019s title in the note and send the law\u2019s official url by Skype message to my daughter."
+    "nl_command_statment": "Put a new note called new laws in Evernote. When the US president approves a new law, append the law's title in the note and send the law's official url by Skype message to my daughter."
   },
   {
     "action_instances": [],
     "id": 97201,
-    "nl_command_statment": "When the stock EAD rises above 20 Euro and a new donation is made in my RedCloud account, create the task \u201creview the incoming\u201d in the Harvest project called \u201cfinance\u201d."
+    "nl_command_statment": "When the stock EAD rises above 20 Euro and a new donation is made in my RedCloud account, create the task \u201creview the incoming in the Harvest project called \u201cfinance\u201d."
   },
   {
     "action_instances": [],
     "id": 97202,
-    "nl_command_statment": "If the stock \u201cVOW3\u201d valorizes more than 5% and you found a new donation in my RedCloud account, include the task \u201creview the incoming\u201d in the Harvest project named \u201cfinance\u201d."
+    "nl_command_statment": "If the stock VOW3 valorizes more than 5% and you found a new donation in my RedCloud account, include the task \u201creview the incoming\u201d in the Harvest project named \u201cfinance\u201d."
   },
   {
     "action_instances": [],
     "id": 97301,
-    "nl_command_statment": "If the price of the stock BMW drops below 17 \u20ac, write a Twitter containing the link with more information."
+    "nl_command_statment": "If the price of the stock BMW drops below 17 , write a Twitter containing the link with more information."
   },
   {
     "action_instances": [],
@@ -37,17 +37,17 @@
   {
     "action_instances": [],
     "id": 97401,
-    "nl_command_statment": "Check the temperature in Munich. If it is less than 10 \u00b0C, stop the irrigation system in all zones. Otherwise, take a picture of my garden and publish in my Facebook timeline."
+    "nl_command_statment": "Check the temperature in Munich. If it is less than 10 , stop the irrigation system in all zones. Otherwise, take a picture of my garden and publish in my Facebook timeline."
   },
   {
     "action_instances": [],
     "id": 97402,
-    "nl_command_statment": "If it is colder than 15 \u00b0C in Munich, turn off the equipment of irrigation in the zone \u201cnorth\u201d. If not, take a photo of my garden and put on my Facebook account."
+    "nl_command_statment": "If it is colder than 15  in Munich, turn off the equipment of irrigation in the zone north. If not, take a photo of my garden and put on my Facebook account."
   },
   {
     "action_instances": [],
     "id": 97501,
-    "nl_command_statment": "If my dog Rex is resting more than usual, take a picture of my south garden. Otherwise publish the image www.ex.com/photo_dog.jpeg in my dog\u2019s Whistle profile and send a message to my wife\u2019s Tesla to look for Rex around the neighborhood."
+    "nl_command_statment": "If my dog Rex is resting more than usual, take a picture of my south garden. Otherwise publish the image www.ex.com/photo_dog.jpeg in my dog\u2019s Whistle profile and send a message to my wife's Tesla to look for Rex around the neighborhood."
   },
   {
     "action_instances": [],
@@ -87,7 +87,7 @@
   {
     "action_instances": [],
     "id": 97802,
-    "nl_command_statment": "End the wash cycle of my washer named \u201cexternal washer\u201d."
+    "nl_command_statment": "End the wash cycle of my washer named external washer."
   },
   {
     "action_instances": [],
@@ -107,7 +107,7 @@
   {
     "action_instances": [],
     "id": 97806,
-    "nl_command_statment": "Suspend the Samsung washer called \u201cexternal washer\u201d."
+    "nl_command_statment": "Suspend the Samsung washer called external washer."
   },
   {
     "action_instances": [],
@@ -121,8 +121,8 @@
   },
   {
     "action_instances": [],
-    "id": 97101,
-    "nl_command_statment": "Send an email to Enrico Hernandez with the following message: \u201cHi Enrico, could you please send me the receipt of your favorite pancakes? Thanks\u201d. When he answers, forward to my wife. Also, save the receipt in a document called \u201cenrico-pancake\u201d."
+    "id": 197101,
+    "nl_command_statment": "Send an email to Enrico Hernandez with the following message: \u201cHi Enrico, could you please send me the receipt of your favorite pancakes? Thanks. When he answers, forward to my wife. Also, save the receipt in a document called \u201cenrico-pancake\u201d."
   },
   {
     "action_instances": [],
@@ -137,21 +137,11 @@
   {
     "action_instances": [],
     "id": 97121,
-    "nl_command_statment": "Check the price for \"The Intelligent Investor\" and buy it if it is under 30 euros."
+    "nl_command_statment": "Check the price for The Intelligent Investor and buy it if it is under 30 euros."
   },
   {
     "action_instances": [],
     "id": 97122,
     "nl_command_statment": "Get the price of the book The Intelligent Investor. If it costs less than 25 euros, buy it."
-  },
-  {
-    "action_instances": [],
-    "id": 97123,
-    "nl_command_statment": "If \"The Intelligent Investor\" is available for less than 30 euros, purchase it for me, please."
-  },
-  {
-    "action_instances": [],
-    "id": 97124,
-    "nl_command_statment": "In the case that the book The Intelligent Investor costs up to 30 euros, buy this book."
   }
 ]
