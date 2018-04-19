@@ -32,14 +32,18 @@ sentences = []
 for mapp in mapping:
     sentences.append(mapp['nl_command_statment'])
 
+f = open("nlphrases","w+")
+
 i = 0
 for x in sentences:
     x = re.sub(r'(\")([^\"]*)(\")', r'', x);
     translator = str.maketrans('', '', string.punctuation + "\n\t")
-    x = x.translate(translator) + " call my name"
+    x = x.translate(translator)
+    f.write(x.lower()+"\n")
+    x=x+ " call my name"
     mapping[i]["nl_command_statment_clean"] = x
     sentence = pos_tag(tokenize.word_tokenize(x))
-    verbs = ['Finish','suspend','Pause','End','Collect','Get','Call','call','Show','List','check','turn','Turn','open','create','Create','submit','include','Look','Capture','find','Open','Include','Enter','Catch','Print','translate','Reply','reply','set','Add','Set','Register','Schedule','Post','Upload','Publish','Message','forward','share','Share','Write','publish','Contact','Find','Search','write','Send','send','save','pay','Pay','receive','Wait','Check','seek','Translate','Save','Extract','Convert']
+    verbs = ['Finish','suspend','Pause','End','Collect','Get','Call','call','Show','List','check','turn','Turn','open','create','Create','submit','include','Look','Capture','find','Open','Include','Enter','Catch','Print','translate','Reply','reply','set','Add','Set','Register','Schedule','Post','Upload','Publish','Message','forward','share','Share','Write','publish','Contact','Find','Search','write','Send','send','save','pay','Pay','Wait','Check','seek','Translate','Save','Extract','Convert']
     j = 0
     for sent in sentence:
         if sent[0] in verbs:
@@ -52,22 +56,24 @@ for x in sentences:
     nl_phrase_sw_remove = []
     for phrase in list_of_noun_phrases:
         ph = " ".join([x[0] for x in phrase.leaves()])
-        nl_phrase.append(ph)
+        nl_phrase.append(ph)       
         ph = word_tokenize(ph)
         ph = " ".join([w for w in ph if w not in stop_words]).lower()
         nl_phrase_sw_remove.append(ph)
+
     mapping[i]['nl_phrases_sw_remove'] = nl_phrase_sw_remove
     mapping[i]['nl_phrases'] = nl_phrase
     i+=1
-    
+
+f.close()
 fmapping_updated    =   open("../data/val_commands_discourse_tagger.json","w+")
 json.dump(mapping,fmapping_updated,indent=4, sort_keys=True)
-
+fmapping_updated.close()
 # import json
 # import nltk
 # from nltk import word_tokenize, ne_chunk
 
-# fmapping    =   open("../data/mappingv3.json")
+# fmapping    =   open("../data/val_commands.json")
 # mapping     =   json.load(fmapping)
 # fmapping.close()
 
@@ -78,7 +84,7 @@ json.dump(mapping,fmapping_updated,indent=4, sort_keys=True)
 #     postext = nltk.pos_tag(text)
 #     mapping[i]['nl_command_statment_postags'] = postext
 
-# fmappingprocessed   =   open("../data/mappingv3processed.json","w+")
+# fmappingprocessed   =   open("../data/val_commandsprocessed.json","w+")
 # json.dump(mapping,fmappingprocessed,indent=4, sort_keys=True)
 # fmappingprocessed.close()
 
@@ -107,7 +113,7 @@ json.dump(mapping,fmapping_updated,indent=4, sort_keys=True)
 # print(related_docs_indices)
 
 # # print(docs[related_docs_indices])
-# fmapping    =   open("../data/mappingv3.json")
+# fmapping    =   open("../data/val_commands.json")
 # mapping     =   json.load(fmapping)
 # sentences = []
 # for mapp in mapping:
@@ -130,5 +136,5 @@ json.dump(mapping,fmapping_updated,indent=4, sort_keys=True)
 #     mapping[i]['nl_phrase'] = nl_phrase
 #     i+=1
 
-# fmapping_updated    =   open("../data/mappingv3_discourse_tagger.json","w+")
+# fmapping_updated    =   open("../data/val_commands_discourse_tagger.json","w+")
 # json.dump(mapping,fmapping_updated,indent=4, sort_keys=True)
